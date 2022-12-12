@@ -2,16 +2,16 @@
     margin 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
 }
-
 
 .container {
     margin: 0 auto;
     max-width: 1000px;
 }
 
-.clearfix {
-    clear: both;
+.text, .work {
+    font-family: 'Signika', sans-serif;
 }
 
 .title {
@@ -21,8 +21,10 @@
 .title, .text {
     margin: 30px;
     text-align: center;
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .card {
@@ -42,14 +44,12 @@ img {
 
 .right-side {
     margin: 10px;
+    float: left;
 }
 
 .name {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 3px;
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
 }
 
 .work {
